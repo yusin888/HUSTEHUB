@@ -37,6 +37,10 @@ Dashboard for administrators to manage users (can delete a user , approve regist
 
 ## Design / UML diagrams
 
+### Class diagram
+![Class Diagram](/Diagrams/class_diagram.png)
+
+
 
 
 
