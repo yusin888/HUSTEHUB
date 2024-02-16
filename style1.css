@@ -50,6 +50,14 @@ body {
     padding: 12%;
     margin-top: -9%;
 }
+.register-form {
+    display: inline-block;
+    text-align: center;
+}
+.form-group {
+    margin-bottom: 15px;
+}
+
 .register .register-form{
     padding: 10%;
     margin-top: 10%;
