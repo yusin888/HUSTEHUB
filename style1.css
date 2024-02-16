@@ -56,6 +56,8 @@ body {
 }
 .form-group {
     margin-bottom: 15px;
+    margin-left: 60px;
+    display: block; /* Ensure form groups take up full width */
 }
 
 .register .register-form{
