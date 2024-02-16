@@ -1,5 +1,5 @@
 body {
-    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+    background: -webkit-linear-gradient(left, #00563b, #06a875);
     background-size: cover;
 }
 
@@ -60,7 +60,7 @@ body {
     border: none;
     border-radius: 1.5rem;
     padding: 2%;
-    background: #0062cc;
+    background: #00563b;
     color: #fff;
     font-weight: 600;
     width: 50%;
@@ -69,7 +69,7 @@ body {
 .register .nav-tabs{
     margin-top: 3%;
     border: none;
-    background: #0062cc;
+    background: #00563b;
     border-radius: 1.5rem;
     width: 28%;
     float: right;
@@ -87,8 +87,8 @@ body {
 }
 .register .nav-tabs .nav-link.active{
     width: 120px;
-    color: #0062cc;
-    border: 2px solid #0062cc;
+    color: #00563b;
+    border: 2px solid #00563b;
     border-top-left-radius: 1.5rem;
     border-bottom-left-radius: 1.5rem;
 }
