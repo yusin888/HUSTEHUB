@@ -32,7 +32,7 @@ Dashboard for administrators to manage users (can delete a user , approve regist
 - PHP/ Django
 - Figma: UI/UX design
 - Git and Github: version control
-- Lucidchart: system design/ UML diagrams
+- Draw.io: system design/ UML diagrams
 - Slack: workspace for collaboration and communication
 
 
