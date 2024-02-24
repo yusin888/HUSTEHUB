@@ -27,8 +27,10 @@ body {
 }
 .register-right{
     background: #f8f9fa;
-    border-top-left-radius: 10% 50%;
-    border-bottom-left-radius: 10% 50%;
+    border-top-left-radius: 5% 20%;
+    border-bottom-left-radius: 5% 20%;
+    border-top-right-radius: 5% 20%;
+    border-bottom-right-radius: 5% 20%;
 }
 .register-left img{
     margin-top: 15%;
