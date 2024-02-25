@@ -1,22 +1,41 @@
-// src/components/Header.js
-import React from 'react';
+import React, { useState } from 'react';
 import './Header.css';
-import logo from "../Assets/logo.png"
+import logo from "../Assets/logo.png";
+import accountIcon from "../Assets/person.png";
+import BsTabs from './BsTabs'; 
+import ControlledCarousel from './hero';
+const Header=()=>{
+    const [showForms,setShowForms]=useState(false);
+    const toggleForms=()=>{
+        setShowForms(!showForms);
+    };
 
-const Header = () => {
-  return (
-    <header className="header">
-      <div className="logo"><img src={logo}/></div>
-      <nav>
-        <ul>
-          <li>Home</li>
+    return(
+        <>
+        <header className="header">
+            <div className="logo">
+                <img src={logo} alt="Logo"/>
+            </div>
+            <nav>
+                <ul>
+                    <li>Home</li>
+                    <li>About Us</li>
+                    <li>Contact</li>
+                    <li onClick={toggleForms}>
+                        <img src={accountIcon} alt="account"/>
+                    </li>
+                </ul>
+            </nav>
+        </header>
+        {/* carousel welcoming clients */}
+        <div className='caroussel-container'>
+            <ControlledCarousel/>
+        </div>
+        <div className={`forms-container ${showForms ?'show':''}`}>
+            <BsTabs/>
+        </div>
+        </>
 
-          <li>About Us</li>
-          <li>Contact</li>
-        </ul>
-      </nav>
-    </header>
-  );
-};
-
+    )
+}
 export default Header;
