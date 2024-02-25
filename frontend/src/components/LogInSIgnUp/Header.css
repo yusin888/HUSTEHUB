@@ -1,0 +1,31 @@
+/* src/components/Header.css */
+.header {
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+    color:whitesmoke;
+  }
+  
+  .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  .logo img{
+    height: 100px;
+    width: 100px;
+  }
+  
+  .header ul {
+    font-size: 1.2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding:10px;
+  }
+  
+  .header li {
+    margin-right: 1rem;
+    padding:10px;
+  }
