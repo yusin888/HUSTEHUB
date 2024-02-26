@@ -1,6 +1,6 @@
 frontend
 # HUSTEHUB
-This is a project done collabortively by 5 members for the unit: **ICS2309-Commercial programming**
+This is a project done collabortively by *5 members* for the unit: **ICS2309-Commercial programming**
 
 ## Problem definition
 - Residents in Juja find it difficult to locate and find skilled laborers (electricians, plumbers, carpenters, cleaners, laptop technicians) from a single point thus Hustle Hub will give our users an easy way to access any of the above technician from just an app.
